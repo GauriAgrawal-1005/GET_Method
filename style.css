@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Btn {
+    display: block;
+  margin: 10px;
+  padding: 0.25rem 0.5rem;
+  border: 3px solid black;
+  border-radius: 7px;
+  color:black;
+  background: #fefefe;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.Btn:hover {
+  background: rgba(0, 0, 0,0.1);
+}
+
+#list{
+    font-size: 1.5rem;
+    padding: 0.1rem 0.5rem;
+}
